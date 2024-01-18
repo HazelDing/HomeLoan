@@ -1,17 +1,18 @@
 # Home Loan Machine Learning and Tableau Project
-I. Business Problem
+
+# I. Business Problem
 
 The business problem of home loan classification involves determining the creditworthiness of individuals or entities applying for home loans. This process is crucial for financial institutions, such as banks or mortgage lenders, to assess the risk associated with lending money for home purchases. Home loan classification aims to categorize loan applicants into different risk groups to make informed decisions about approving or denying loan applications
 
-II. Dataset
+# II. Dataset
 
 The dataset contains fundamental information about historical data of borrowing customers along with the approval status as target variable. This dataset is chosen because it comprises a diverse set of predictors, spanning across 13 variables through 614 observations, in multiple data types ranging from time data, categorical data to continuous and discrete data. This broad information would provide a solid foundation for further investigation and facilitate almost the knowledge covered in the course for classification problems.
 
-III Target variable: Loan_Status
+# III Target variable: Loan_Status
 
 It is a supervised learning about classification where we have to predict whether a loan would be approved or not.
 
-IV. OSEMN Pipeline
+# IV. OSEMN Pipeline
 
 1. Obtain
 
@@ -51,7 +52,7 @@ IV. OSEMN Pipeline
 
 5. Intepret
 
-V. Conclusion
+# V. Conclusion
 
 Logistic regression model returns accuracy of 81% while random forest model returns accuracy of 78%, therefore we conclude that logistic regression model is more effective than random forest model to predict loan status. The feature importance genereated by random forest indicates that the top five features affect loan approval or not are:
 
@@ -61,7 +62,7 @@ Logistic regression model returns accuracy of 81% while random forest model retu
 4. EMI (equated monthly income)
 5. Property located in semi-urban area
 
-VI. Visualization of Machine Learing Analysis
+# VI. Visualization of Machine Learing Analysis
 
 i) Univariate Analysis
 
